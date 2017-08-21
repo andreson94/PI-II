@@ -1,4 +1,4 @@
-package br.com.andreson;
+package Aula2;
 
 import java.awt.Dimension;
 import javax.swing.JFrame;
