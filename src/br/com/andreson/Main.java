@@ -6,8 +6,12 @@ import javax.swing.SwingUtilities;
 
 public class Main {
     public static void main(String[] args) {
-        MinhaThread mt = new MinhaThread();
-        SwingUtilities.invokeLater(mt);
+        Runnable t = new Runnable() {
+            public void run() {
+                criarGUI();
+            }
+        };
+        SwingUtilities.invokeLater(t);
         
     }
     public static void criarGUI(){
