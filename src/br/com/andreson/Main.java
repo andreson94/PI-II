@@ -2,9 +2,12 @@ package br.com.andreson;
 
 import java.awt.Dimension;
 import javax.swing.JFrame;
+import javax.swing.SwingUtilities;
 
 public class Main {
     public static void main(String[] args) {
+        MinhaThread mt = new MinhaThread();
+        SwingUtilities.invokeLater(mt);
         
     }
     public static void criarGUI(){
