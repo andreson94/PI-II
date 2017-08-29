@@ -44,7 +44,7 @@ public class Main {
         
         //criando um checkbox
         JCheckBox checkbox01 = new JCheckBox("item 01");
-        tela.add(checkbox01);
+        panel.add(checkbox01);
         
         ItemListener itemlistener = new ItemListener() {
             public void itemStateChanged(ItemEvent e) {
@@ -55,7 +55,7 @@ public class Main {
         checkbox01.addItemListener(itemlistener);
         
         JCheckBox checkbox02 = new JCheckBox("item 02");
-        tela.add(checkbox02);
+        panel.add(checkbox02);
         
         JButton button1 = new JButton("botão 01");
         panel.add(button1);
