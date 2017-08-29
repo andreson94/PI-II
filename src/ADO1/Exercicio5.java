@@ -30,7 +30,7 @@ public class Exercicio5 {
         int n;
         while(numIgual){
             System.out.print("Digite um numero: ");
-            n=input.nextInt();
+            n=Integer.parseInt(input.nextLine());
             
         if (random==n){
             System.out.println("PARABÉNS VOCÊ ACERTOU ");
